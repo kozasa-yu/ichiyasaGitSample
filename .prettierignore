@@ -1,0 +1,13 @@
+# ビルドされたファイルは無視
+dist/
+build/
+
+# パッケージロックファイル
+package-lock.json
+yarn.lock
+
+# HTMLテンプレートの一部など整形したくないもの
+src/assets/html/*.html
+
+# JSONファイルの一部
+config/settings.json
